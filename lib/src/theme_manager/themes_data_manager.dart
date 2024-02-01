@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sarangcatapp/src/theme_manager/color_manager.dart';
+import 'package:sarangcatapp/src/theme_manager/fonts_managers.dart';
 
 ThemeData getApplicationThemeData() {
   return ThemeData(
@@ -13,5 +14,6 @@ ThemeData getApplicationThemeData() {
       primary: ColorManager.cPrimaryColor,
       secondary: ColorManager.cSecondary,
     ),
+    fontFamily: FontFamilyConstants.fontFamily,
   );
 }

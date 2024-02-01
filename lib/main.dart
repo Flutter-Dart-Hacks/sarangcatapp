@@ -1,54 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sarangcatapp/src/cubits/auth_login_cubit.dart';
-import 'package:sarangcatapp/src/shareds/themes.dart';
-import 'package:sarangcatapp/src/ui/splashscreens/splashscreens_page.dart';
+import 'package:sarangcatapp/appscreen.dart';
 
 void main() {
   runApp(const SarangCatApp());
-}
-
-class SarangCatApp extends StatefulWidget {
-  const SarangCatApp({super.key});
-
-  @override
-  State<SarangCatApp> createState() => _SarangCatAppState();
-}
-
-class _SarangCatAppState extends State<SarangCatApp> {
-  @override
-  Widget build(BuildContext context) {
-    return MultiBlocProvider(
-      providers: [
-        BlocProvider(
-          create: (context) => AuthLoginCubit(),
-        )
-      ],
-      child: MaterialApp(
-        title: 'SarangCatApp',
-        debugShowCheckedModeBanner: false,
-        themeMode: ThemeMode.light,
-        theme: ThemeData(
-          appBarTheme: const AppBarTheme(
-            backgroundColor: kAppbarColor,
-            actionsIconTheme: IconThemeData(color: Colors.white),
-          ),
-          colorScheme: ColorScheme.fromSwatch().copyWith(
-            background: kBackgroundColor,
-            primary: kPrimaryColor,
-            secondary: kSecondaryColor,
-          ),
-          scaffoldBackgroundColor: kBackgroundColor,
-        ),
-        initialRoute: SplashScreenPage.routeName,
-        routes: {
-          SplashScreenPage.routeName: (context) {
-            return const SplashScreenPage();
-          }
-        },
-      ),
-    );
-  }
 }
 
 class MyApp extends StatelessWidget {
