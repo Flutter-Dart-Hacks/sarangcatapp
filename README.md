@@ -5,7 +5,7 @@ Aplikasi tentang kucing dan jodohnya kucing. Menggunakan metode Feature first fo
 Referensi
 [Flutter Project Structure](https://codewithandrea.com/articles/flutter-project-structure/)
 
-## Getting Started
+## Cara Memulai
 
 This project is a starting point for a Flutter application.
 
