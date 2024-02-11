@@ -1,4 +1,4 @@
-# Sarang Cat App
+# Sarang Cat App Flutter
 
 Aplikasi tentang kucing dan jodohnya kucing. Menggunakan metode Feature first folder structure.
 
