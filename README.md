@@ -1,6 +1,6 @@
 # Sarang Cat App
 
-Aplikasi tentang kucing dan jodohnya kucing. Menggunakan metode Feature first folder structure.
+Aplikasi tentang kucing dan jodohnya kucing. Menggunakan metode Feature first folder structure. Dan menggunakan CUBIT BLOC state management.
 
 Referensi
 [Flutter Project Structure](https://codewithandrea.com/articles/flutter-project-structure/)
