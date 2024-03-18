@@ -1,4 +1,4 @@
-# Sarang Cat App Flutter
+# Sarang Cat App
 
 Aplikasi tentang kucing dan jodohnya kucing. Menggunakan metode Feature first folder structure. Dan menggunakan CUBIT BLOC state management.
 
